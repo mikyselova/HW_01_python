@@ -16,5 +16,5 @@ for znak in text:
 
 cetnost_znaku = dict(sorted(cetnost_znaku.items()))
 
-with open('hw01_output.json', 'w', encoding='utf-8') as file:
+with open("hw01_output.json", "w", encoding="utf-8") as file:
     json.dump(cetnost_znaku, file, indent=4, ensure_ascii=False)
